@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Navbar from '../components/ui/Navbar';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <div className='text-3xl text-[#095c6f] font-bold underline'>Setting Environment</div>
+        <Navbar />
       </main>
     </>
   );
