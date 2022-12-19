@@ -1,4 +1,4 @@
-import hero from '../../public/ezgif.gif';
+import hero from '../../public/bgVideo.gif';
 import Image from 'next/image';
 import Container from '../ui/Container';
 const Showcase = () => {

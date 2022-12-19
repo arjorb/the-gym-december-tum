@@ -10,34 +10,36 @@ const Navbar = () => {
     <div className='bg-[#072140] fixed top-0  left-0 right-0 z-50 py-5'>
       <Container>
         <div className='flex justify-between items-center text-white'>
-          <div className='flex items-center gap-4'>
-            <Image src={menu} alt='menu' />
-            <div className='flex gap-3'>
-              <Image src={TUM} alt='TUM' />
-              <span className='hidden md:visible text-[0.7rem] opacity-90 leading-tight'>
-                Technical <br /> University <br /> of Munich
-              </span>
+          <Link href='/'>
+            <div className='flex items-center gap-4'>
+              <Image src={menu} alt='menu' />
+              <div className='flex gap-3'>
+                <Image src={TUM} alt='TUM' />
+                <span className='hidden md:visible text-[0.7rem] opacity-90 leading-tight'>
+                  Technical <br /> University <br /> of Munich
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
           <div className='flex gap-3 items-center text-sm opacity-90  font-medium'>
             <ul className='hidden md:flex gap-6  mr-12'>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='/news'>
                   NEWS AND EVENTS
                 </Link>
               </li>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='/study'>
                   STUDIES
                 </Link>
               </li>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='/learning'>
                   LIFELONG LEARNING
                 </Link>
               </li>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='/research'>
                   RESEARCH
                 </Link>
               </li>
