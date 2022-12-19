@@ -13,6 +13,7 @@ import Ground from '../components/Home/Ground';
 import Podcast from '../components/Home/Podcast';
 import PodcastLower from '../components/Home/PodcastLower';
 import Giving from '../components/Home/Giving';
+import Footer from '../components/ui/Footer';
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         <Podcast />
         <PodcastLower />
         <Giving />
+        <Footer />
       </main>
     </>
   );
