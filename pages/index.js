@@ -12,6 +12,7 @@ import School from '../components/Home/School';
 import Ground from '../components/Home/Ground';
 import Podcast from '../components/Home/Podcast';
 import PodcastLower from '../components/Home/PodcastLower';
+import Giving from '../components/Home/Giving';
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         <Ground />
         <Podcast />
         <PodcastLower />
+        <Giving />
       </main>
     </>
   );
