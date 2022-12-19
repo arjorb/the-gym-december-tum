@@ -7,6 +7,7 @@ import NewsLower from '../components/Home/NewsLower';
 import Discover from '../components/Home/Discover';
 import Degree from '../components/Home/Degree';
 import Drive from '../components/Home/Drive';
+import Numbers from '../components/Home/Numbers';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Discover />
         <Degree />
         <Drive />
+        <Numbers />
       </main>
     </>
   );
