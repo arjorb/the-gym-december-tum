@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Showcase from '../components/Home/Showcase';
 import Navbar from '../components/ui/Navbar';
+import News from '../components/Home/News';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+        <Showcase />
+        <News />
       </main>
     </>
   );
