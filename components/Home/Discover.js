@@ -22,14 +22,14 @@ const Discover = () => {
                 <li className='hover:bg-slate-100 px-4 py-3 cursor-pointer font-medium text-[#14519A]'>Show all</li>
               </ul>
             </div>
-            <div className='w-[600px] h-[400px] bg-yellow-300 flex justify-center items-center'>
+            <div className='w-[600px] h-[400px] bg-yellow-400 flex justify-center items-center'>
               <div className='relative'>
                 <Image src={discover} className=' w-96' alt='' />
-                <div className='absolute bottom-0 left-0 h-[80%] w-[40px] bg-yellow-300'></div>
-                <div className='absolute bottom-0 left-20 h-[80%] w-[40px] bg-yellow-300'></div>
-                <div className='absolute top-0 left-40 h-[80%] w-[40px] bg-yellow-300'></div>
-                <div className='absolute bottom-0 left-60 h-[80%] w-[40px] bg-yellow-300'></div>
-                <div className='absolute bottom-0 left-80 h-[80%] w-[40px] bg-yellow-300'></div>
+                <div className='absolute bottom-0 left-0 h-[80%] w-[40px] bg-yellow-400'></div>
+                <div className='absolute bottom-0 left-20 h-[80%] w-[40px] bg-yellow-400'></div>
+                <div className='absolute top-0 left-40 h-[80%] w-[40px] bg-yellow-400'></div>
+                <div className='absolute bottom-0 left-60 h-[80%] w-[40px] bg-yellow-400'></div>
+                <div className='absolute bottom-0 left-80 h-[80%] w-[40px] bg-yellow-400'></div>
               </div>
             </div>
           </div>

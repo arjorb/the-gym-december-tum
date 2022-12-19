@@ -5,6 +5,8 @@ import Navbar from '../components/ui/Navbar';
 import News from '../components/Home/News';
 import NewsLower from '../components/Home/NewsLower';
 import Discover from '../components/Home/Discover';
+import Degree from '../components/Home/Degree';
+import Drive from '../components/Home/Drive';
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <News />
         <NewsLower />
         <Discover />
+        <Degree />
+        <Drive />
       </main>
     </>
   );
