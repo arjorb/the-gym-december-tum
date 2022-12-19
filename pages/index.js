@@ -8,6 +8,10 @@ import Discover from '../components/Home/Discover';
 import Degree from '../components/Home/Degree';
 import Drive from '../components/Home/Drive';
 import Numbers from '../components/Home/Numbers';
+import School from '../components/Home/School';
+import Ground from '../components/Home/Ground';
+import Podcast from '../components/Home/Podcast';
+import PodcastLower from '../components/Home/PodcastLower';
 
 export default function Home() {
   return (
@@ -30,6 +34,10 @@ export default function Home() {
         <Degree />
         <Drive />
         <Numbers />
+        <School />
+        <Ground />
+        <Podcast />
+        <PodcastLower />
       </main>
     </>
   );

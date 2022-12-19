@@ -2,7 +2,7 @@ import Container from '../ui/Container';
 
 const Numbers = () => {
   return (
-    <div className='mt-24'>
+    <div className='my-24'>
       <Container>
         <h1 className='text-4xl font-semibold my-10'>TUM in numbers</h1>
         <div className='grid grid-cols-3 gap-5 '>
