@@ -4,6 +4,7 @@ import Showcase from '../components/Home/Showcase';
 import Navbar from '../components/ui/Navbar';
 import News from '../components/Home/News';
 import NewsLower from '../components/Home/NewsLower';
+import Discover from '../components/Home/Discover';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Showcase />
         <News />
         <NewsLower />
+        <Discover />
       </main>
     </>
   );

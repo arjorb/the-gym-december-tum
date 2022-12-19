@@ -4,6 +4,7 @@ const buttonClass = cva('text-white py-4 mt-7', {
   variants: {
     variant: {
       primary: 'bg-[#14519A]',
+      secondary: 'border-[#14519A] border text-[#14519A]',
     },
     size: {
       sm: ' w-[120px] text-center',
