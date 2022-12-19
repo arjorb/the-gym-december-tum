@@ -4,9 +4,10 @@ import Container from '../ui/Container';
 const Showcase = () => {
   return (
     <div className='relative mt-20'>
-      <Image src={hero} className=' w-full h-[700px]' alt='cover' />
+      <div className='h-[350px] md:h-0 bg-gradient-to-r from-[#072140] via-[#0A2D57] to-[#165DB1]'></div>
+      <Image src={hero} className=' w-full md:h-[700px]' alt='cover' />
       <Container>
-        <div className='absolute text-white top-20'>
+        <div className='absolute  text-white top-20'>
           <h1 className='text-5xl font-medium text-white'>
             TUM. The Entrepreneurial <br /> University
           </h1>

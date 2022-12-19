@@ -8,7 +8,7 @@ const PodcastLower = () => {
   return (
     <div className='my-32'>
       <Container>
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='grid md:grid-cols-3 gap-10'>
           <div className=''>
             <PodcastCard
               image={lower1}

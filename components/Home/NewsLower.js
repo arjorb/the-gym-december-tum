@@ -6,8 +6,8 @@ import sustain from '../../public/sustain.jpg';
 const NewsLower = () => {
   return (
     <Container>
-      <div className='my-10 flex gap-6 justify-end mr-48'>
-        <div className='w-[280px]'>
+      <div className='my-10 md:flex gap-6 md:justify-end md:mr-48'>
+        <div className='md:w-[280px]'>
           <NewsCard
             className='col-start-3'
             image={leibinz}
@@ -19,7 +19,7 @@ const NewsLower = () => {
             time='Reading time 2 min'
           />
         </div>
-        <div className='w-[280px]'>
+        <div className='md:w-[280px]'>
           <NewsCard
             image={sustain}
             span='Sustainability'

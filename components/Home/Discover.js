@@ -10,9 +10,9 @@ const Discover = () => {
           <h2 className='font-semibold '>Customized navigation</h2>
           <h1 className='text-4xl font-semibold my-7'>Discover what TUM has to offer</h1>
         </div>
-        <div className='flex justify-end items-center gap-20'>
-          <div className='relative'>
-            <div className='absolute -left-40 top-10 w-64 h-72 px-2 py-4  bg-white border-slate-400 border'>
+        <div className='md:flex justify-end items-center gap-20'>
+          <div className='md:relative'>
+            <div className='absolute z-20 left-10 md:-left-40 md:top-10 w-64 h-72 px-2 py-4  bg-white border-slate-400 border'>
               <p className='px-4'>For:</p>
               <ul className='mt-5 space-y-1'>
                 <li className='bg-slate-100 px-4 py-3 cursor-pointer font-medium'>Prospective Students</li>
@@ -22,7 +22,7 @@ const Discover = () => {
                 <li className='hover:bg-slate-100 px-4 py-3 cursor-pointer font-medium text-[#14519A]'>Show all</li>
               </ul>
             </div>
-            <div className='w-[600px] h-[400px] bg-yellow-400 flex justify-center items-center'>
+            <div className='w-full md:w-[600px] h-[400px] bg-yellow-400 flex justify-center items-center'>
               <div className='relative'>
                 <Image src={discover} className=' w-96' alt='' />
                 <div className='absolute bottom-0 left-0 h-[80%] w-[40px] bg-yellow-400'></div>

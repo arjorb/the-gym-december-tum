@@ -7,7 +7,7 @@ const Podcast = () => {
   return (
     <div className='my-32'>
       <Container>
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='grid md:grid-cols-3 gap-10'>
           <div className='col-span-2'>
             <PodcastCard
               image={podcast1}
