@@ -44,17 +44,17 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='/innovation'>
                   INNOVATION
                 </Link>
               </li>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='community'>
                   COMMUNITY
                 </Link>
               </li>
               <li>
-                <Link className='hover:border-b-4 py-7 hover:border-white' href=''>
+                <Link className='hover:border-b-4 py-7 hover:border-white' href='/about'>
                   ABOUT TUM
                 </Link>
               </li>
